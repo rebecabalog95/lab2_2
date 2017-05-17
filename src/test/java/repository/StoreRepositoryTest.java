@@ -40,12 +40,12 @@ public class StoreRepositoryTest {
 
     @Test
     public void addNewProduct() throws Exception {
-        assertEquals("eroare in addNewProduct",0,repository.getAllProducts().size());
+        //modificare
+        assertEquals("eroare in addNewProduct",1,repository.getAllProducts().size());
         repository.addNewProduct(product1);
         assertEquals("eroare in addNewProduct",product1,repository.getAllProducts().get(0));
         repository.addNewProduct(product2);
         repository.addNewProduct(product3);
-        //modificare
     }
 
     @Test
