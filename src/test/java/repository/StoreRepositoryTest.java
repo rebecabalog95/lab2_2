@@ -45,6 +45,7 @@ public class StoreRepositoryTest {
         assertEquals("eroare in addNewProduct",product1,repository.getAllProducts().get(0));
         repository.addNewProduct(product2);
         repository.addNewProduct(product3);
+        //modificare
     }
 
     @Test
